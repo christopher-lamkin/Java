@@ -1,0 +1,15 @@
+public class PowersOfTwo
+{
+  public static void main(String[] args)
+  {
+    int N = Integer.parseInt(args[0]);
+    int i = 0;
+    int v = 1;
+    while (i <= N)
+    {
+      System.out.println(i + " " + v);
+      v = 2 * v;
+      i = i + 1;
+    }
+  }
+}
