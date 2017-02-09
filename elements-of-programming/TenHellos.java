@@ -17,6 +17,11 @@ public class TenHellos
         System.out.println(i + "nd hello!");
         i = i + 1;
       }
+      else if (lastDigit == 3)
+      {
+        System.out.println(i + "rd hello!");
+        i = i + 1;
+      }
       else
       {
         System.out.println(i + "th hello!");
