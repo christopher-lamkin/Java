@@ -6,6 +6,9 @@ public class CouponCollector
 
     boolean[] found = new boolean[N];
 
+    for (int i = 0; i < found.length; i++)
+      System.out.println(found[i]);
+
     int cardCount = 0;
     int valueCount = 0;
 
